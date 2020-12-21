@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description
 var player=instance_place(x,y+1,PLAYER)
 
 if player!=noone
@@ -28,8 +27,8 @@ if player!=noone
   if global.item[item,TYPE]="armor"
   {
    player.spr_armor=global.item[item,IMAGE]
-   player.f_mhp=global.item[item,VAR]
-   player.hp=global.item[item,VAR]
+   player.f_mhp+=global.item[item,VAR]
+   player.hp+=global.item[item,VAR]
   }
   
   
