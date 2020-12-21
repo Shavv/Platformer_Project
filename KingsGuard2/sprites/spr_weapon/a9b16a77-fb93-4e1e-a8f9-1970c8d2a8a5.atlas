@@ -1,0 +1,146 @@
+
+skeleton.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cannon1
+  rotate: false
+  xy: 368, 29
+  size: 28, 18
+  orig: 28, 18
+  offset: 0, 0
+  index: -1
+crossbow1
+  rotate: false
+  xy: 411, 50
+  size: 24, 12
+  orig: 24, 12
+  offset: 0, 0
+  index: -1
+hammer1
+  rotate: false
+  xy: 68, 28
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+hammer2
+  rotate: false
+  xy: 118, 46
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+hammer3
+  rotate: false
+  xy: 118, 28
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+hammer4
+  rotate: false
+  xy: 168, 46
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+mace1
+  rotate: false
+  xy: 168, 28
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+mace2
+  rotate: false
+  xy: 218, 46
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+mace3
+  rotate: false
+  xy: 218, 28
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+scythe1
+  rotate: false
+  xy: 2, 30
+  size: 64, 32
+  orig: 64, 32
+  offset: 0, 0
+  index: -1
+spear1
+  rotate: false
+  xy: 268, 46
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+spear2
+  rotate: false
+  xy: 68, 15
+  size: 49, 11
+  orig: 49, 11
+  offset: 0, 0
+  index: -1
+spear3
+  rotate: false
+  xy: 2, 12
+  size: 64, 16
+  orig: 64, 16
+  offset: 0, 0
+  index: -1
+sword1
+  rotate: false
+  xy: 68, 2
+  size: 43, 11
+  orig: 43, 11
+  offset: 0, 0
+  index: -1
+sword2
+  rotate: false
+  xy: 368, 49
+  size: 41, 13
+  orig: 41, 13
+  offset: 0, 0
+  index: -1
+sword3
+  rotate: false
+  xy: 268, 28
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+sword4
+  rotate: false
+  xy: 318, 46
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+sword5
+  rotate: false
+  xy: 318, 28
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+sword6
+  rotate: false
+  xy: 68, 46
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+wand1
+  rotate: false
+  xy: 119, 19
+  size: 21, 7
+  orig: 21, 7
+  offset: 0, 0
+  index: -1
