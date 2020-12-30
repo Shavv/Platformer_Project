@@ -1,6 +1,8 @@
 /// @description
 #region AI
 
+timer_init("attack_ready")
+
 target=instance_nearest(x,y,PLAYER)
 
 if wpn="sword" {ai_distance=40}
@@ -12,6 +14,7 @@ if target!=noone and state!=-99
 {
  ///agrressive 
  if distance_to_point(target.x,y)<=ai_distance and distance_to_point(x,target.y)<16
+ and timer_attack_ready=-1
  {
   if state=0 {if target.x>x {ai_lock_xscale=1} if target.x<x {ai_lock_xscale=-1}}
   
@@ -21,10 +24,12 @@ if target!=noone and state!=-99
   if target.x<x and image_xscale=-1 {ai_right=1 ai_left=0} else {
   if target.x>x and image_xscale= 1 {ai_right=0 ai_left=1}}
   
-  if target.x=x-ai_distance {ai_right=0 ai_left=0}
-  if target.x=x+ai_distance {ai_right=0 ai_left=0}
+  //if target.x=x-ai_distance {ai_right=0 ai_left=0}
+  //if target.x=x+ai_distance {ai_right=0 ai_left=0}
   
   ai_attack=1
+  timer_attack_ready=200
+  
  }
   else
  {
@@ -103,7 +108,7 @@ y+=vspd
 #region Sprite
 
 //sprite
-if state!=1
+if state!=1 and ai_attack=0
 {
  if xmove>0 {image_xscale= 1}
  if xmove<0 {image_xscale=-1}

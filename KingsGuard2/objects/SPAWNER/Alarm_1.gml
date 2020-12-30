@@ -5,5 +5,5 @@ with (obj_shop_block)
 }
 
 spawns=0
-maxspawns+=choose(0,1,1,1,2,2,3,4)
+maxspawns+=choose(0,1,1,1,1,1,1,1,2,2,2,3)
 wave+=1
